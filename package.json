@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/raylinhonghu/MongoDB#readme",
   "dependencies": {
+    "mocha": "^5.0.0",
     "mongoose": "^5.0.4"
   }
 }

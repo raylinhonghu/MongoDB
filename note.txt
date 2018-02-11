@@ -1,0 +1,8 @@
+1. MongoDB can run different databases
+2. One database can store different collections
+3. One collection can store different records {},{}
+4. Only model with similar schema will be stored in same record
+
+Mocha-
+1. test our connection with the database
+- creating/ reading/ updating/ deleting records (CRUD)
