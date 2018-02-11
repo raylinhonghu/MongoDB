@@ -18,3 +18,12 @@ before(function(done){
   })
 
 })
+
+// isolation tests: Drop the characters collection before each tests
+// before each test is run
+beforeEach(function(done){
+  // Drop the collection                asychronous drop
+  mongoose.connection.collections.mariochars.drop(function(){
+    done();
+  })
+})

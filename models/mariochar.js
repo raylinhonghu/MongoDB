@@ -7,7 +7,7 @@ const MarioCharSchema = new Schema({
   weight: Number
 });
 
-// create a model based a schema in mariochar collection
+// create a model(collection) based a schema in mariochar
 const MarioChar = mongoose.model('mariochar', MarioCharSchema);
 
 // exports so we can do: var myChar = new MarioChar({});
