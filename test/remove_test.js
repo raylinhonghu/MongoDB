@@ -16,6 +16,10 @@ describe('Deleting records',function(){
     });
   });
 
+  // char.remove()
+  // MarioChar.remove({})
+  // MarioChar.findOneAndRemove({})
+
   it('Delete a record from the database',function(done){
 
     // asychronous
