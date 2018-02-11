@@ -50,3 +50,12 @@ $sort	Modifies the $push operator to reorder documents stored in an array.
 Bitwise
 Name	Description
 $bit	Performs bitwise AND, OR, and XOR updates of integer values.
+
+
+
+# dependency
+
+  "dependencies": {
+    "mocha": "^5.0.0",
+    "mongoose": "^5.0.4"
+  }
